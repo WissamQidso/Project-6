@@ -9,7 +9,7 @@ footer, header, nav, section, input, textarea {
     border:0;
     outline:0;
     font-size:100%;
-    font-family: 'Myriad Pro', 'calibri';
+    font-family: 'Myriad Pro Regular';
     vertical-align: baseline;
     background: transparent;
     list-style-type: none;
@@ -17,7 +17,7 @@ footer, header, nav, section, input, textarea {
 
 body {
     line-height:1;
-    font-family: 'Myriad Pro';
+    font-family: 'Myriad Pro Regular';
 }
 
 
@@ -42,6 +42,26 @@ a {
 }
 
 /***** MY CSS WORK *****/ 
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url(../Fonts-Package/Myriad Pro Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Brush Script Std Medium';
+    src: url(../Fonts-Package/Brush Script Std Medium.ttf)
+}
+
+@font-face {
+    font-family: 'Maiandra GD Regular';
+    src: url(../Fonts-Package/Maiandra GD Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Forte Regular';
+    src: url(../Fonts-Package/Forte Regular.ttf)
+}
 
 .wrapper {
     width: 100%;
@@ -83,7 +103,7 @@ a {
     position: absolute;
     top: 10px;
     left: 45.5%;
-    font-family: 'Brush Script Std';
+    font-family: 'Brush Script Std Medium';
     font-size: 50px;
     color: #ffffff; 
 }
@@ -107,7 +127,7 @@ a {
 }
 
 #lead-banner ul li a {
-    font-family: 'maiandra gd', 'calibri', 'Myriad Pro';
+    font-family: 'Maiandra GD Regular';
     margin-left: 5px;
     text-transform: uppercase;
     text-decoration: none;
@@ -139,7 +159,7 @@ a {
     margin: 0 auto;
     font-size: 55px;
     color: #f3f3f3;
-    font-family: 'Forte';
+    font-family: 'Forte Regular';
     font-weight: normal;
 }
 
@@ -190,7 +210,7 @@ a {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: bold;
-    font-family: 'maiandra gd', 'calibri', 'Myriad Pro';
+    font-family: 'Maiandra GD Regular';
     border-bottom: 2px solid #302e2c;
 }
 
@@ -267,7 +287,7 @@ a {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: bold;
-    font-family: 'maiandra gd', 'calibri', 'Myriad Pro';
+    font-family: 'Maiandra GD Regular';
     border-bottom: 2px solid #302e2c;
 }
 
@@ -376,7 +396,7 @@ a {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: bold;
-    font-family: 'maiandra gd', 'calibri', 'Myriad Pro';
+    font-family: 'Maiandra GD Regular';
     border-bottom: 2px solid #302e2c;
 }
 
@@ -415,7 +435,7 @@ a {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: bold;
-    font-family: 'maiandra gd', 'calibri', 'Myriad Pro';
+    font-family: 'Maiandra GD Regular';
     border-bottom: 2px solid #302e2c;
 }
 
@@ -487,7 +507,7 @@ footer #list-1 {
 
 footer ul h3 {
     text-transform: uppercase;
-    font-family: 'maiandra gd', 'calibri', 'Myriad Pro';
+    font-family: 'Maiandra GD Regular';
     font-size: 20px;
     color: #dddddd;
     text-align: center;
@@ -648,7 +668,7 @@ footer #list-3 #contact-info li:nth-child(4) input:hover {
 
 .footer-banner h3 {
     text-transform: uppercase;
-    font-family: 'maiandra gd', 'calibri', 'Myriad Pro';
+    font-family: 'Maiandra GD Regular';
     font-size: 20px;
     color: #a0a0a0;
     text-align: center;
@@ -692,7 +712,7 @@ footer #list-3 #contact-info li:nth-child(4) input:hover {
 }
 
 #copy-right a {
-    font-family: 'Forte';
+    font-family: 'Forte Regular';
     color: white;
     padding-left: 0.2vw;
     text-decoration: none; 
@@ -1110,3 +1130,4 @@ footer #list-3 #contact-info li:nth-child(4) input:hover {
     }
 
 }
+
