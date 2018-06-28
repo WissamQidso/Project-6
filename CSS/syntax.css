@@ -42,27 +42,41 @@ a {
 }
 
 /***** MY CSS WORK *****/ 
-
 @font-face {
-    font-family: 'Myriad Pro Regular';
-    src: url(../Fonts-Package/Myriad Pro Regular.ttf)
+    font-family: 'myriad';
+    src: url('fonts-package/myriad.woff2') format('woff2'),
+         url('fonts-package/myriad.woff') format('woff1'),
+         url('fonts-package/myriad.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Brush Script Std Medium';
-    src: url(../Fonts-Package/Brush Script Std Medium.ttf)
+    font-family: 'brush';
+    src: url('fonts-package/brush.woff2') format('woff2'),
+         url('fonts-package/brush.woff') format('woff'),
+         url('fonts-package/brush.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Maiandra GD Regular';
-    src: url(../Fonts-Package/Maiandra GD Regular.ttf)
+    font-family: 'calibri';
+    src: url('fonts-package/calibri.woff2') format('woff2'),
+         url('fonts-package/calibri.woff') format('woff'),
+         url('fonts-package/calibri.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Forte Regular';
-    src: url(../Fonts-Package/Forte Regular.ttf)
+    font-family: 'forte';
+    src: url('fonts-package/forte.woff2') format('woff2'),
+         url('fonts-package/forte.woff') format('woff'),
+         url('fonts-package/forte.ttf') format('truetype'); 
 }
 
+@font-face {
+    font-family: 'maiandra';
+    src: url('fonts-package/maiandra.woff2') format('woff2'),
+         url('fonts-package/maiandra.woff') format('woff'),
+         url('fonts-package/maiandra.ttf') format('truetype'); 
+}
+ 
 .wrapper {
     width: 100%;
     max-width: 1180px;
