@@ -9,7 +9,7 @@ footer, header, nav, section, input, textarea {
     border:0;
     outline:0;
     font-size:100%;
-    font-family: 'Myriad Pro Regular';
+    font-family: 'myriad';
     vertical-align: baseline;
     background: transparent;
     list-style-type: none;
@@ -17,7 +17,7 @@ footer, header, nav, section, input, textarea {
 
 body {
     line-height:1;
-    font-family: 'Myriad Pro Regular';
+    font-family: 'myriad';
 }
 
 
@@ -117,7 +117,7 @@ a {
     position: absolute;
     top: 10px;
     left: 45.5%;
-    font-family: 'Brush Script Std Medium';
+    font-family: 'brush';
     font-size: 50px;
     color: #ffffff; 
 }
@@ -141,7 +141,7 @@ a {
 }
 
 #lead-banner ul li a {
-    font-family: 'Maiandra GD Regular';
+    font-family: 'maiandra';
     margin-left: 5px;
     text-transform: uppercase;
     text-decoration: none;
@@ -173,7 +173,7 @@ a {
     margin: 0 auto;
     font-size: 55px;
     color: #f3f3f3;
-    font-family: 'Forte Regular';
+    font-family: 'forte';
     font-weight: normal;
 }
 
@@ -224,7 +224,7 @@ a {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: bold;
-    font-family: 'Maiandra GD Regular';
+    font-family: 'maiandra';
     border-bottom: 2px solid #302e2c;
 }
 
@@ -301,7 +301,7 @@ a {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: bold;
-    font-family: 'Maiandra GD Regular';
+    font-family: 'maiandra';
     border-bottom: 2px solid #302e2c;
 }
 
@@ -410,7 +410,7 @@ a {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: bold;
-    font-family: 'Maiandra GD Regular';
+    font-family: 'maiandra';
     border-bottom: 2px solid #302e2c;
 }
 
@@ -449,7 +449,7 @@ a {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: bold;
-    font-family: 'Maiandra GD Regular';
+    font-family: 'maiandra';
     border-bottom: 2px solid #302e2c;
 }
 
@@ -521,7 +521,7 @@ footer #list-1 {
 
 footer ul h3 {
     text-transform: uppercase;
-    font-family: 'Maiandra GD Regular';
+    font-family: 'maiandra';
     font-size: 20px;
     color: #dddddd;
     text-align: center;
@@ -682,7 +682,7 @@ footer #list-3 #contact-info li:nth-child(4) input:hover {
 
 .footer-banner h3 {
     text-transform: uppercase;
-    font-family: 'Maiandra GD Regular';
+    font-family: 'maiandra';
     font-size: 20px;
     color: #a0a0a0;
     text-align: center;
@@ -726,7 +726,7 @@ footer #list-3 #contact-info li:nth-child(4) input:hover {
 }
 
 #copy-right a {
-    font-family: 'Forte Regular';
+    font-family: 'forte';
     color: white;
     padding-left: 0.2vw;
     text-decoration: none; 
